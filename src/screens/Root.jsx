@@ -1,8 +1,8 @@
 import {StyleSheet, Text, View} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import HomePage from './HomePage';
-import Search from './Search';
-import Profile from './Profile';
+import HomePage from './home/HomePage';
+import Search from './home/Search';
+import Profile from './home/Profile';
 
 const Tab = createBottomTabNavigator();
 
